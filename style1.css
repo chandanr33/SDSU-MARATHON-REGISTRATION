@@ -1,0 +1,161 @@
+/*  RAJU, CHANDAN
+    JADRAN 048
+    PROJECT 3
+    FALL 2017 */
+* {
+    margin: 0;
+    padding: 0;
+    }  
+html, body{
+    
+    font-family: "Georgia", serif;
+    }
+body{
+     background:url(http://scmarathon.org/files/2011/09/Marathon_Marathon-Finisher.jpg);
+     height: 100%;
+    background-size:cover;
+}
+h1{
+    text-align: center;
+    font-size: 220%;
+    }       
+div {
+    height: 100%;
+    }
+#header1 {
+    position: fixed;
+    top: 0px;
+    color: #F5F5F5;
+    background-color: #00747F;
+    height: auto;
+    width: 100%;
+    }   
+#column1 {
+    position: fixed;
+    color: #B0B0B0;
+    background-color: #002C50;
+    height: 100%;
+    width: 16%;
+    float: left;
+    margin-top:40px;
+    opacity: 0.8;
+    }  
+#column {
+    margin-top:50px;
+    height: auto;  
+    width: 65%;
+    float: left; 
+    }  
+#column2{
+    width: 16%;
+    height: auto;
+    margin-top:40px;
+    float: right;
+    background-color: #00747F;
+    opacity: 0.8;
+}
+p{
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+a{
+    padding: 0px 50px 50px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 175%;
+}   
+#footer {
+   position: fixed;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+    background-color: #00747F;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    border:0.4px solid #B0B0B0;
+    opacity: 0.9;
+}  
+span{
+    font-weight: bold;
+    font-size: 130%;
+}
+span:hover{
+    background-color: #002C50;
+}
+img{
+    padding:30px 0px 0px 40px;
+    width: 60%;
+    height:auto;
+}
+.fir{
+    padding:15px 15px 15px 0px;
+    font-size:105%; 
+}
+.spn{
+    font-weight: bold;
+    font-size: 105%;
+    color: white;
+}
+ul{
+    padding-left: 25px;
+    list-style-type: none;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 175%;
+    padding:0px 0px 5px 0px;
+}
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;                                  
+    width: 33%;
+    border: 2px solid white;  
+    background-color: #002C50; 
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+#button_panel {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    } 
+.button {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: 90%;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 10px;
+    } 
+input {
+    border: 1px solid black;
+    }
+li{
+    padding: 6px 6px 6px 6px;
+    color: white;
+}
+.button:hover{
+    background-color:#00747F;
+}
+#div2{
+    padding-top: 20px;
+}
+#message_line {
+    height: 30px;
+    padding-top: 10px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    }           
+
+#fbut:hover{
+    background-color:#00747F;
+}
+h4{
+    text-align: center;
+    color: red;
+}

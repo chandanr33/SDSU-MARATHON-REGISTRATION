@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<!-- RAJU, CHANDAN
+	 JADRAN 048
+	 PROJECT 2
+	 FALL 2017 -->
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up Page</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<script src="http://jadran.sdsu.edu/jquery/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="proj2.js"></script>
+</head>
+<body >
+<div id="div2">
+        <fieldset>
+        <form action="process_request.php"
+              method="post">
+              <h2>Sign Up!</h2>
+              <hr>
+        <ul id="sec">
+        	
+            <li><label >First Name:</label>
+                <input type="text" name="fname"  id="fname" size="20" /></li>  
+                <li><label >Middle Name:</label>
+                <input type="text" name="mname"  id="mname" size="20" /></li>                   
+            <li><label >Last Name:</label>
+                <input type="text" name="lname"  id="lname" size="20" /></li> 
+            <li><label >Address 1:</label>
+                <input type="text" name="address1"  id="address1" size="40" /></li>
+            <li><label >Address 2:</label>
+                <input type="text" name="address2"  id="address2" size="40" /></li>      
+            <li><label >City:</label>
+                <input type="text" name="city"  id="city" size="18" /> 
+                <label >State:</label>  
+                <input type="text" name="state"  id="state" size="2" maxlength="2"/>                     
+                <label >Zip:</label>
+                <input type="text" name="zip" id="zip" size="5" maxlength="5" /></li>      
+            <li><label >Phone:</label>
+                (<input type="text" name="area_phone" id="phone" size="3" maxlength="3" />)  &nbsp;&nbsp;
+                 <input type="text" name="prefix_phone" size="3" maxlength="3" /> &nbsp;-&nbsp;
+                <input type="text" name="phone" size="4" maxlength="4" /></li> 
+            <li><label >EMail:</label>
+                <input type="text" name="email" id="email" size="25" placeholder=" name@example.com"/></li>
+            <li><label >Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+  				<input type="radio" name="gender" value="female"> Female
+  				<input type="radio" name="gender" value="other"> Other</li>
+  			<li><label >DOB:</label>
+                <input type="text" name="month" id="month" size="2" maxlength="2" placeholder=" mm" />  &nbsp;/&nbsp;
+                 <input type="text" name="day" id="day" size="2" maxlength="2" placeholder=" dd"/> &nbsp;/&nbsp;
+                <input type="text" name="year" id="year" size="4" maxlength="4" placeholder=" yyyy"/></li>
+  			<li><textarea rows="5" cols="45" name="medical" placeholder=" Have you ever had any medical conditions?"></textarea></li>
+  			<li><label >Experience Level:</label>
+                <input type="radio" name="experience_level" value="expert"> Expert
+  				<input type="radio" name="experience_level" value="experienced"> Experienced
+  				<input type="radio" name="experience_level" value="novice"> Novice</li>	
+  			<li><label >Category:</label>
+                <input type="radio" name="category" value="teen"/> Teen
+  				<input type="radio" name="category" value="adult"/> Adult
+  				<input type="radio" name="category" value="senior"/> Senior</li>
+          <li><label >Runner's Image</label>
+            <input type="file" enctype="multipart/form-data" name="runner_pic" id="runner_pic"   accept="image/*"/></li>
+  			
+        </ul>
+        <hr>
+        <div id="message_line">&nbsp;</div>
+        <hr>
+        <div id="button_panel">  
+
+            <input type="reset" value="Clear" class="button" />
+            <input type="submit" value="Submit" id="fbut" enctype="multipart/form-data" class="button" /> 
+        </div>              
+        </form>
+        </fieldset>        
+    </div>    
+</body>
+</html>
